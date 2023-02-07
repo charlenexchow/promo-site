@@ -1,0 +1,120 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200&family=Righteous&display=swap');
+</style>
+
+/*font-family: 'Kanit', sans-serif;
+font-family: 'Righteous', cursive;*/
+
+* {
+	box-sizing: border-box;
+}
+
+body, html {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background-image: url("foil.jpg");
+	color: #fff;
+}
+
+.header, .shop {
+	font-family: 'Kanit', sans-serif;
+	color: black;
+	font-size: 30px;
+	text-align: center;
+	background-color: #feb5d5;
+	padding: 20px;
+}
+
+.artist {
+	font-family: 'Righteous', cursive;
+	color: black;
+	font-size: 200px;
+	position: absolute;
+	top: 60px;
+  	right: 120px;
+  	text-shadow: -10px 10px 10px #feb5d5;
+}
+
+.cover {
+	padding: 0;
+    margin: 0;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.album {
+	font-family: 'Righteous', cursive;
+	color: #feb5d5;
+	font-size: 150px;
+	position: relative;
+	top: -110px;
+	text-shadow: 10px 10px 10px black;
+}
+
+.underline {
+	position: relative;
+	top: -80px;
+	align-content: left;
+	background-color: #feb5d5;
+	padding: 50px;
+	max-height: 75%;
+	max-width: 75%;
+}
+
+.sit, .heart {
+	display: block;
+	margin-bottom: 100px;
+  	margin-left: 100px;
+  	width: 30%;
+  	border-radius: 30px;
+  	box-shadow: 10px 10px 30px black;
+}
+
+.setlist {
+	font-family: 'Righteous', cursive;
+	color: white;
+	font-size: 100px;
+	position: absolute;
+	top: 1100px;
+  	right: 300px;
+  	text-shadow: 0px 0px 20px black;
+}
+
+ul {
+	font-family: 'Kanit', sans-serif;
+	color: black;
+	font-size: 25px;
+	padding: 40px;
+	margin: 30px;
+	position: absolute;
+	top: 1250px;
+  	right: 150px;
+  	background-color: #feb5d5;
+  	border-radius: 30px;
+  	box-shadow: 10px 10px 30px black;;
+  	text-align: center;
+}
+
+li {
+  margin: 20px 0;
+}
+
+/*.shop {
+	font-family: 'Kanit', sans-serif;
+	color: #feb5d5;
+	font-size: 30px;
+	text-align: center;
+	padding: 20px;
+}*/
+
+.ids {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 20%;
+}
+
+
